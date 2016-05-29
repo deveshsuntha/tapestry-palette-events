@@ -1,0 +1,14 @@
+<html title="taptest Index" xmlns:t="http://tapestry.apache.org/schema/tapestry_5_3.xsd"
+	xmlns:p="tapestry:parameter">
+
+	<t:form t:id="firstForm">
+		<t:palette t:id="firstPalette" />
+	</t:form>
+	<t:zone t:id="secondPaletteZone">
+		<t:form t:id="secondForm">
+			<t:Select t:id="select" model="selectModels" t:value="selectedValue" />
+		</t:form>
+		
+	</t:zone>
+
+</html>
